@@ -1,6 +1,6 @@
 header{
-    background-color: black;
-    color: white;
+    background-color: rgb(201, 201, 201);
+    color: rgb(17, 17, 17);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,9 +21,11 @@ header{
 
 .iniciar{
     text-decoration: none;
+    color: black;
 }
 .registrar{
     text-decoration: none;
+    color: black;
 }
 
 @media (width < 540px) {
@@ -47,7 +49,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1577313449444-a67bc5315c54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-color: rgb(240, 240, 240);
+    background-image: url("");
     background-position: center;
     background-size: cover;
     backdrop-filter: blur(15px);
@@ -89,7 +92,6 @@ main{
 }
 
 .caja1 img{
-    border: 3px solid rgb(29, 240, 1);
     width: 80%;
     border-radius: 20%;
 }
@@ -107,7 +109,6 @@ main{
 }
 
 .caja2 img{
-    border: 3px solid rgb(29, 240, 1);
     width: 80%;
     height: 80%;
     border-radius: 20%;
@@ -130,7 +131,6 @@ main{
 }
 
 .caja3 img{
-    border: 3px solid rgb(29, 240, 1);
     width: 80%;
     height: 80%;
     border-radius: 20%;
@@ -138,6 +138,10 @@ main{
 
 .caja3 p{
     width: 70%;
+}
+
+.lista{
+    text-align: left;
 }
 
 @media(width < 1700px) {
